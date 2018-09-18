@@ -18,7 +18,7 @@ html {
 
 h1 {
   font-family: sans-serif;
-  color: #FED766;
+  color: #F6E27F;
   font-size: 40px;
 }
 
@@ -30,6 +30,7 @@ h1 {
   padding: 20px;
   border: solid 2px;
   border-radius: 20px;
+  cursor: s-resize;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -41,7 +42,7 @@ h1 {
 
 #answer {
   text-align: center;
-  color: #FED766;
+  color: #F6E27F;
   font-size: 46px;
   font-weight: bold;
 }
@@ -64,8 +65,7 @@ a {
 }
 
 .container:nth-child(odd) .title {
-  background: #D6D5C9;
-
+  background: #E5FCF5;
 }
 
 span {
