@@ -1,25 +1,26 @@
-html {
+body {
   background: #373F51;
   color: #19171c;
-}
-
-.accordion {
-  color: #fff;
-  width: 60%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 40px 10px;
 }
 
 h1 {
   font-family: sans-serif;
   color: #F6E27F;
   font-size: 40px;
+}
+
+.accordion {
+  color: #fff;
+  width: 60%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .title {
