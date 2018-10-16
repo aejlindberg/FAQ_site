@@ -1,12 +1,25 @@
 body {
   background: #373F51;
   color: #19171c;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+a {
+  color: #fff;
 }
 
 h1 {
-  font-family: sans-serif;
   color: #F6E27F;
   font-size: 40px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+span {
+  margin-right: 5px;
 }
 
 .accordion {
@@ -20,18 +33,28 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
 
+.container:nth-child(odd) .title {
+  background: #E5FCF5;
+}
+
+.description {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
 }
 
 .title {
-  width: 500px;
   background: #97ABB1;
-  color: #222;
-  height: 30px;
-  padding: 20px;
   border: solid 2px;
   border-radius: 20px;
+  color: #222;
   cursor: s-resize;
+  height: 30px;
+  padding: 20px;
+  width: 500px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -48,29 +71,10 @@ h1 {
   font-weight: bold;
 }
 
-.description {
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  display: none;
-}
-
 #reservation {
   text-align: center;
   color: #fff;
   font-size: 9px;
-}
-
-a {
-  color: #fff;
-}
-
-.container:nth-child(odd) .title {
-  background: #E5FCF5;
-}
-
-span {
-  margin-right: 5px;
 }
 
 .minus {
