@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>Sprint 1: FAQ-Assignment</title>
@@ -7,19 +7,19 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
-    <div class="accordion">
+    <div class="wrapper">
       <h1>FAQ about space</h1>
-      <div class="container">
-        <div class="title" id="whereIsSpace">
+      <div class="accordion-container" role="tablist">
+        <div class="accordion" id="whereIsSpace" role="tab" aria-controls="whereIsSpaceDesc" tabindex="0">
           <span class="plus">
-            <img src="iconPlus.png">
+            <img src="iconPlus.png" alt="" />
           </span>
           <span class="minus">
-            <img src="iconMinus.png">
+            <img src="iconMinus.png" alt="">
           </span>
           <h2>Hmm, can you tell me about space?</h2>
         </div>
-          <div class="description">
+          <div class="description" id="whereIsSpaceDesc" role="tabpanel" aria-labelledby="whereIsSpace" tabindex="0">
             <p>Outer space, or just space, is the expanse that exists beyond the
               Earth and between celestial bodies. Outer space is not completely
               empty—it is a hard vacuum containing a low density of particles,
@@ -30,17 +30,17 @@
           </div>
         </div>
 
-      <div class="container">
-        <div class="title" id="visitSpace">
+      <div class="accordion-container" role="tablist">
+        <div class="accordion" id="visitSpace" role="tab" aria-controls="visitSpaceDesc" tabindex="0">
           <span class="plus">
-            <img src="iconPlus.png">
+            <img src="iconPlus.png" alt="">
           </span>
           <span class="minus">
-            <img src="iconMinus.png">
+            <img src="iconMinus.png" alt="">
           </span>
           <h2>I would like to go there, can I visit space?</h2>
         </div>
-        <div class="description">
+        <div class="description" id="visitSpaceDesc" role="tabpanel" aria-labelledby="visitSpace" tabindex="0">
           <p>Yes. Space tourism is space travel for recreational, leisure or
             business purposes. There are several different types of space
             tourism, including orbital, suborbital and lunar space tourism.
@@ -52,23 +52,24 @@
         </div>
       </div>
 
-      <div class="container">
-        <div class="title" id="peopleInSpace">
+      <div class="accordion-container" role="tablist">
+        <div class="accordion" id="peopleInSpace" role="tab" aria-controls="peopleInSpaceDesc" tabindex="0">
           <span class="plus">
-            <img src="iconPlus.png">
+            <img src="iconPlus.png" alt="">
           </span>
           <span class="minus">
-            <img src="iconMinus.png">
+            <img src="iconMinus.png" alt="">
           </span>
           <h2>How many people are in space right now?</h2>
         </div>
-        <div class="description">
+        <div class="description" id="peopleInSpaceDesc" role="tabpanel" aria-labelledby="peopleInSpace" tabindex="0">
           <p id="answer">6</p>
           <p id="reservation">With reservation for changes. For exact number,
             please visit <a href="https://www.howmanypeopleareinspacerightnow.com/">
             www.howmanypeopleareinspacerightnow.com</a>
         </div>
       </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

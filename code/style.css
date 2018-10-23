@@ -22,7 +22,7 @@ span {
   margin-right: 5px;
 }
 
-.accordion {
+.wrapper {
   color: #fff;
   width: 60%;
   height: auto;
@@ -35,7 +35,7 @@ span {
   align-items: center;
 }
 
-.container:nth-child(odd) .title {
+.accordion-container:nth-child(odd) .accordion {
   background: #E5FCF5;
 }
 
@@ -46,7 +46,7 @@ span {
   width: 500px;
 }
 
-.title {
+.accordion {
   background: #97ABB1;
   border: solid 2px;
   border-radius: 20px;
@@ -60,7 +60,7 @@ span {
   align-items: center;
 }
 
-.title:hover {
+.accordion:hover {
   opacity: 0.7;
 }
 
